@@ -13,6 +13,8 @@
 		047072AE254537E800CA110F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047072AC254537E700CA110F /* Main.storyboard */; };
 		047072B0254537F000CA110F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047072AF254537F000CA110F /* Assets.xcassets */; };
 		047072B3254537F000CA110F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047072B1254537F000CA110F /* LaunchScreen.storyboard */; };
+		047072BD25453C3500CA110F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047072BB25453C3500CA110F /* CollectionViewCell.swift */; };
+		047072BE25453C3500CA110F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047072BC25453C3500CA110F /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		047072AF254537F000CA110F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047072B2254537F000CA110F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047072B4254537F000CA110F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047072BB25453C3500CA110F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		047072BC25453C3500CA110F /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,21 @@
 				047072A8254537E700CA110F /* SceneDelegate.swift */,
 				047072AA254537E700CA110F /* ViewController.swift */,
 				047072AC254537E700CA110F /* Main.storyboard */,
+				047072C025453C4400CA110F /* CollectionCell */,
 				047072AF254537F000CA110F /* Assets.xcassets */,
 				047072B1254537F000CA110F /* LaunchScreen.storyboard */,
 				047072B4254537F000CA110F /* Info.plist */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		047072C025453C4400CA110F /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				047072BB25453C3500CA110F /* CollectionViewCell.swift */,
+				047072BC25453C3500CA110F /* CollectionViewCell.xib */,
+			);
+			path = CollectionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			files = (
 				047072B3254537F000CA110F /* LaunchScreen.storyboard in Resources */,
 				047072B0254537F000CA110F /* Assets.xcassets in Resources */,
+				047072BE25453C3500CA110F /* CollectionViewCell.xib in Resources */,
 				047072AE254537E800CA110F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			files = (
 				047072AB254537E700CA110F /* ViewController.swift in Sources */,
 				047072A7254537E700CA110F /* AppDelegate.swift in Sources */,
+				047072BD25453C3500CA110F /* CollectionViewCell.swift in Sources */,
 				047072A9254537E700CA110F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

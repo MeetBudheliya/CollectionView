@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Chrome.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
